@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Raleway&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Comfortaa&family=Rajdhani&family=Raleway&family=Teko&display=swap');
 
 * {
     padding: 0;
@@ -64,7 +64,7 @@ text-align: center;
 /* HOME */
 
 
-/* Carrossel */
+/* CARROSEL */
 
 .container-fluid {
     padding: 0 !important;
@@ -77,6 +77,40 @@ height: 580px;
 .c-img {
 height: 100%;
 object-fit: cover;
-filter: brightness(0.8);
+filter: brightness(0.6);
 
 }
+
+/* MARCA */
+
+.text-brand {
+    background: #212123;
+    width: 669px; 
+    height: 476px;
+    text-align: center;
+}
+
+.brand-title {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 110px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+}
+
+.brand-paragraph {
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+}
+
+.brand-video {
+    position: absolute;
+    width: 850px;
+    height: 477px;
+    left: 669px;
+    object-fit: cover;
+    top: 647px;
+    opacity: 90%;
+}
+
