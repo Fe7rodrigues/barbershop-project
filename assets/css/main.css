@@ -27,11 +27,11 @@ a:hover {
 }
 
 .logo img {
-    position: absolute;
+        position: absolute;
     max-width: 104px;
-    height: 70px;
+    height: 81px;
     left: -29px;
-    top: -33px;
+    top: -44px;
 }
 
 nav {
@@ -48,8 +48,8 @@ nav {
     list-style: none;
     display: flex;
     padding-left: 80px;
-display: flex;
-text-align: center;
+    display: flex;
+    text-align: center;
 }
 
 .nav-list li {
@@ -68,16 +68,17 @@ text-align: center;
 
 .container-fluid {
     padding: 0 !important;
-   margin: 0 !important;
+    margin: 0 !important;
 }
+
 .c-item {
-height: 580px;
+    height: 580px;
 }
 
 .c-img {
-height: 100%;
-object-fit: cover;
-filter: brightness(0.6);
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
 
 }
 
@@ -85,17 +86,17 @@ filter: brightness(0.6);
 
 .text-brand {
     background: #212123;
-    width: 669px; 
+    width: 669px;
     height: 476px;
     text-align: center;
 }
 
 .brand-title {
-  font-size: 50px;
-  padding-top: 50px;
-  padding-bottom: 110px;
-  font-family: 'Raleway', sans-serif;
-  color: #ffffff;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
 }
 
 .brand-paragraph {
@@ -112,5 +113,99 @@ filter: brightness(0.6);
     object-fit: cover;
     top: 647px;
     opacity: 90%;
+    border: solid;
 }
 
+.brand-main-2 {
+    left: 150px;
+    height: 268px;
+    width: 100%;
+    padding-top: 15px;
+    background: #ad987d;
+}
+
+.brand-paragraph-2 {
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo-main {
+    text-align: center;
+    width: 245px;
+    height: 254px;
+    top: 1176px;
+    position: absolute;
+    left: 680px;
+}
+
+.product {
+    background: url("/assets/img/background.jpg") no-repeat right top fixed;
+    width: 100%;
+    height: 382px;
+
+}
+
+.title-product {
+    margin-top: 30px;
+    left: 183px;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    font-size: medium;
+}
+
+.product-paragraph {
+    text-align: end;
+    width: 271px;
+    margin-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-store, .google-play {
+    cursor: pointer;
+}
+
+.app-store {
+    width: 130px;
+    height: 45px;
+    margin-top: 300px;
+    margin-left: 15px;
+}
+
+.google-play {
+    width: 130px;
+    height: 39px;
+    margin-top: 300px;
+    margin-left: 183px;
+}
+
+.product-value img {
+    display: inline-block;
+    height: 182px;
+    width: 191px;
+    margin-top: -26%;
+    margin-left: 20px;
+}
+
+.value-img1,
+.value-img2,
+.value-img3:hover {
+    cursor: pointer;
+}
+
+
+.value-img1:first-child {
+    margin-left: 610px;
+}
+
+/* PRODUTOS */
+
+.itens {
+    background-image: url(/assets/img/background2.jpg);
+    width: 50%;
+    height: 588px;
+    object-fit: cover;
+}
