@@ -15,11 +15,8 @@
 
 ## 🖥️ Demonstration
 
-<<<<<<< HEAD
-![home](assets\img\preview.png)
-=======
 ![home](assets/img/preview.png)
->>>>>>> 38a81cbeb62a495e1d686232530001b72e4e4973
+
 
 You can access the project by clicking [here](https://fe7rodrigues.github.io/barbershop-project/).
 ---
