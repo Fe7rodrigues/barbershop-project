@@ -206,7 +206,7 @@ nav {
 /* PRODUTOS */
 
 .itens {
-    background: url(/assets/img/background4.jpg);
+    background: url(assets/img/background4.jpg);
     width: 100%;
     height: 540px;
     object-fit: cover;
